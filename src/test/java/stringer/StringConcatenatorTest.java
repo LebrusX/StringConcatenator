@@ -21,7 +21,8 @@ class StringConcatenatorTest {
                 () -> assertEquals("b", StringConcatenator.concat("", "b", 1)),
                 () -> assertEquals("a", StringConcatenator.concat("a", "", 1)),
                 () -> assertEquals("abbbbbb", StringConcatenator.concat("a", "b", 6)),
-                () -> assertEquals("a", StringConcatenator.concat("a", "bsgrdfstgdgt", 0))
+                () -> assertEquals("a", StringConcatenator.concat("a", "bsgrdfstgdgt", 0)),
+                () -> assertEquals("a", StringConcatenator.concat("a", null, 6))
         );
     }
 

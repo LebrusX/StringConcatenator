@@ -2,6 +2,8 @@ package stringer;
 
 public class StringConcatenator {
 
+    private StringConcatenator() {}
+
     public static String concat(String s1, String s2, int n) {
         if (s2 == null)
             return s1;
