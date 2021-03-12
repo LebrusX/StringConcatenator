@@ -85,12 +85,11 @@
             <artifactId>junit-jupiter-params</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.powermock</groupId>
-            <artifactId>powermock-api-mockito</artifactId>
-            <version>1.7.4</version>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-inline</artifactId>
+            <version>3.7.7</version>
+            <scope>test</scope>
         </dependency>
-
-
     </dependencies>
 
     <build>
